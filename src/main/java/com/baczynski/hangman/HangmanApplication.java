@@ -20,6 +20,7 @@ public class HangmanApplication {
 		Word returnWord = new Word();
 		if(lang.equals("pl")) returnWord = new Word(1, "NIESPODZIANECZKA", "pl", 1);
 		if(lang.equals("en")) returnWord = new Word(2, "SURPRISE", "pl", 1);
+		if(lang.equals("de")) returnWord = new Word(3, "UBERRASCHUNG", "pl", 1);
 
 		return returnWord;
 	}
